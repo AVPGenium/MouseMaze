@@ -97,6 +97,8 @@ GameObject:
   - 4: {fileID: 31788614}
   - 212: {fileID: 31788613}
   - 114: {fileID: 31788612}
+  - 50: {fileID: 31788616}
+  - 61: {fileID: 31788615}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -151,12 +153,41 @@ Transform:
   m_PrefabParentObject: {fileID: 491888, guid: e14178cbbe0bd594391593ceff359f5d, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 31788611}
-  m_LocalRotation: {x: .00880202185, y: .00864972267, z: .00864972267, w: .999886453}
-  m_LocalPosition: {x: -3.70000005, y: .0599999987, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalRotation: {x: -.000154201291, y: .012339754, z: -.715885818, w: .698108315}
+  m_LocalPosition: {x: -2.3499999, y: 1.85000002, z: -.00999999978}
+  m_LocalScale: {x: 2.32561636, y: 2.06942201, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!61 &31788615
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 31788611}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 5.96046448e-08, y: -1.86264515e-09}
+  serializedVersion: 2
+  m_Size: {x: .319999993, y: .319999993}
+--- !u!50 &31788616
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 31788611}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &352318480
 GameObject:
   m_ObjectHideFlags: 0
