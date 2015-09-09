@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -25,7 +25,13 @@ public class EditField : MonoBehaviour {
 	void Start () {
 		//добавляем предметы в инвентарь 
 		EditorFieldPlayer.Add(0, ItemData._ItemData.ItemGen(0)); 
-		EditorFieldPlayer.Add(1, ItemData._ItemData.ItemGen(1)); 
+		EditorFieldPlayer.Add(1, ItemData._ItemData.ItemGen(1));
+		EditorFieldPlayer.Add(2, ItemData._ItemData.ItemGen(2)); 
+		EditorFieldPlayer.Add(3, ItemData._ItemData.ItemGen(3));
+		EditorFieldPlayer.Add(4, ItemData._ItemData.ItemGen(4)); 
+		EditorFieldPlayer.Add(5, ItemData._ItemData.ItemGen(5));
+		EditorFieldPlayer.Add(6, ItemData._ItemData.ItemGen(6)); 
+		EditorFieldPlayer.Add(7, ItemData._ItemData.ItemGen(7));
 	}
 	
 	// Update is called once per frame

@@ -46,9 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\EditField.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\ItemData.cs" />
      <Compile Include="Assets\Scripts\LevelHandler.cs" />
      <Compile Include="Assets\Scripts\Move.cs" />
      <Compile Include="Assets\Scripts\WallManager.cs" />
+     <Compile Include="Assets\Scripts\gameDataResources.cs" />
+     <Compile Include="Assets\Scripts\levelEditor.cs" />
      <None Include="Assets\Resources\levels.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
